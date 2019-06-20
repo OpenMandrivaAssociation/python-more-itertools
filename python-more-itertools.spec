@@ -1,7 +1,7 @@
 %global tarName more-itertools
 
 Name:           python-%{tarName}
-Version:        5.0.0
+Version:	7.0.0
 Release:        1
 Summary:        Implements a lazy string for python useful for use with get-text
 
