@@ -1,14 +1,14 @@
 %global tarName more-itertools
 
 Name:           python-%{tarName}
-Version:	7.2.0
+Version:	8.0.0
 Release:	1
 Summary:        Implements a lazy string for python useful for use with get-text
 
 Group:          Development/Python
 License:        BSD
 URL:            https://github.com/erikrose/more-itertools
-Source0:	https://files.pythonhosted.org/packages/c2/31/45f61c8927c9550109f1c4b99ba3ca66d328d889a9c9853a808bff1c9fa0/more-itertools-7.2.0.tar.gz
+Source0:	https://files.pythonhosted.org/packages/5a/e7/b7883994ae36a5167214ea573b10dce626c65d9eeea1fa1e853b8e5a3b73/more-itertools-8.0.0.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:	python-setuptools
