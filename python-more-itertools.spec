@@ -11,7 +11,8 @@ URL:            https://github.com/erikrose/more-itertools
 Source0:        https://files.pythonhosted.org/packages/source/m/more_itertools/more_itertools-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3-devel
-BuildRequires:	python-setuptools
+BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pip)
 
 %description
 The itertools library is a gem - you can compose elegant solutions for a 
