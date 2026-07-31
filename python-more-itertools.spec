@@ -1,7 +1,7 @@
 %global tarName more-itertools
 
 Name:           python-%{tarName}
-Version:	10.8.0
+Version:	11.1.0
 Release:	1
 Summary:        Implements a lazy string for python useful for use with get-text
 
@@ -21,7 +21,7 @@ of building blocks, recipes, and routines for working with iterables.
 
 
 %prep
-%setup -qn more_itertools-%{version}
+%setup -qn more_itertools-%{version} -n more_itertools-11.1.0
 
 %build
 %py_build
